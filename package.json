@@ -1,0 +1,32 @@
+{
+  "name": "smarter-technologies-application-submission",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/packages/sort.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/packages/sort.js",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobHeater/smarter-technologies-application-submission.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JacobHeater/smarter-technologies-application-submission/issues"
+  },
+  "homepage": "https://github.com/JacobHeater/smarter-technologies-application-submission#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.4.0",
+    "jest": "^30.3.0",
+    "ts-jest": "^29.4.6",
+    "typescript": "^5.9.3"
+  }
+}
